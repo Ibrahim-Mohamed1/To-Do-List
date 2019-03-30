@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>To Do List<img id="chek" src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-md.png"></h1>
+    <form name="form" action="">
+        <input id="title" type="text" placeholder="Title (Required)" required autocomplete="off">
+        <input id="description" type="text" placeholder="Description (Optional)" autocomplete="off">
+        <input id="price" type="number" placeholder="Price (Optional)" step=".01" autocomplete="off">
+        <input id="image" type="text" placeholder="Image URL (Preferred)" autocomplete="off">
+        <input type="checkbox" name="" id="complete"><span class="completed">Completed</span>
+        <button id="submit">Submit</button>
+    </form>
+    <div id="todo-list"></div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
