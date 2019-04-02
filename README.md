@@ -1,4 +1,4 @@
-An app created with JavaScript, HTML, and CSS designed to help users organize to do items.
+An app created with JavaScript, HTML, Axios, and CSS designed to help users organize to do items.
 
 Hosted at: http://ibrahim-to-do-list.surge.sh/
 
