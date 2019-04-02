@@ -12,4 +12,4 @@ Hosted at: http://ibrahim-to-do-list.surge.sh/
         
 2. To Start:
 
-        open index.html file on browser
+        open index.html file in browser
